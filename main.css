@@ -1,0 +1,36 @@
+label{
+    display: block;
+}
+input{
+    display: block;
+    width: calc(100% - 30px);
+    margin-top: 4px;
+    margin-bottom: 8px;
+    padding: 10px;
+}
+.container{
+    max-width: 1024px;
+    margin: 0 auto;
+}
+.box{
+    padding: 10px;
+    border: 2px solid black;
+    padding-bottom: 30px;
+}
+.password{
+    position: relative;
+    margin-bottom: 16px;
+}
+
+.eye{
+    position: absolute;
+    right: 20px;
+    top:10px;
+    cursor: pointer;
+}
+.login{
+    padding: 8px 16px;
+    background-color: black;
+    color: white;
+    border: none;
+}
