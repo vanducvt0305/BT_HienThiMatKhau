@@ -14,6 +14,7 @@
     />
   </head>
   <body>
+    <!-- Đổi type input  -->
     <div class="container box">
       <h2>Bài Tập hiển thị thông tin người dùng</h2>
       <label for="">Tài Khoản</label>
@@ -24,6 +25,65 @@
         <i class="fa fa-eye eye"></i>
       </div>
       <button class="login">Đăng Nhập</button>
+    </div>
+    <hr />
+    <!-- Tính lương nhân viên  -->
+    <div class="luongNhanVien container">
+      <label for="">Lương Nhân Viên</label>
+      <input id="luonginput" placeholder="Nhập lương nhân viên" type="text" />
+      <label for="">Số Ngày Làm Việc</label>
+      <input id="ngayinput" placeholder="Nhập số ngày làm việc" type="text" />
+      <button id="tinhluong">Tính Lương</button>
+      <span id="tongLuong" class="hienThi"></span>
+    </div>
+    <hr />
+    <!-- Tính điểm trung bình  -->
+    <div class="tinhDiemTrungBinh container">
+      <h2>Nhập vào 5 số thực vào 5 ô input bên dưới</h2>
+      <input id="input1" placeholder="Nhập vào số thực thứ nhất" type="text" />
+      <input id="input2" placeholder="Nhập vào số thực thứ hai" type="text" />
+      <input id="input3" placeholder="Nhập vào số thực thứ ba" type="text" />
+      <input id="input4" placeholder="Nhập vào số thực thứ tư" type="text" />
+      <input id="input5" placeholder="Nhập vào số thực thứ năm" type="text" />
+      <button id="tinhSoTrungBinh" class="button">Tính số trung bình</button>
+      <span id="trungBinh" class="hienThi"></span>
+    </div>
+    <hr />
+    <!-- Quy đổi tiền tệ  -->
+    <div class="quyDoiTienTe container">
+      <label for="">Giá USD</label>
+      <input id="giaUsd" placeholder="Giá USD hiện tại" type="text" />
+      <label for="">Số USD cần quy đổi</label>
+      <input
+        id="soLuongUsd"
+        placeholder="Số lượng USD cần quy đổi"
+        type="text"
+      />
+      <button id="tinhToan" class="button">Tính số tiền VND nhận được</button>
+
+      <span id="tongVND" class="hienThi"></span>
+    </div>
+    <hr />
+    <!-- Chu vi và diện tích hình chữ nhật  -->
+    <div class="hinhChuNhat container">
+      <label for="">Chiều dài hình chữ nhật</label>
+      <input
+        id="chieuDai"
+        placeholder="Nhập chiều dài hình chữ nhật"
+        type="text"
+      />
+      <label for="">Chiều rộng hình chữ nhật</label>
+      <input
+        id="chieuRong"
+        placeholder="Nhập chiều rộng hình chữ nhật"
+        type="text"
+      />
+      <button id="tinhToanDapAn" class="button">
+        Tính toán chu vi và diện tích
+      </button>
+
+      <span id="chuVi" class="hienThi"></span>
+      <span id="dienTich" class="hienThi"></span>
     </div>
     <script src="./main.js"></script>
   </body>
