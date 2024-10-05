@@ -73,7 +73,10 @@ tinhToanDapAnDom.addEventListener("click", function () {
   chuViDom.classList.add("inlineBlock");
   dienTichDom.classList.add("inlineBlock");
 
-  chuViDom.innerHTML =
-    (parseFloat(chieuDaiDom.value) + parseFloat(chieuRongDom.value)) * 2;
-  dienTichDom.innerHTML = +chieuDaiDom.value * parseFloat(chieuRongDom.value);
+  chuViDom.innerHTML = `Chu Vi: ${
+    (parseFloat(chieuDaiDom.value) + parseFloat(chieuRongDom.value)) * 2
+  } m`;
+  dienTichDom.innerHTML = `Diện Tích: ${
+    +chieuDaiDom.value * parseFloat(chieuRongDom.value)
+  } m2`;
 });
